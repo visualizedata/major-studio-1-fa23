@@ -1,2 +1,2 @@
-# major-studio-1-fa23
-PGDV Major Studio 1 Fall 2023
+# Major Studio 1
+PGDV 5200 Fall 2023
