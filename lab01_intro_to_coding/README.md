@@ -12,7 +12,7 @@
 
 Go to [https://msdv.signin.aws.amazon.com/console](https://msdv.signin.aws.amazon.com/console). Select IAM User and log in with your email and password under account `msdv`.
 
-Create a new environment using all the default settings, then clone this repo by running `git clone [https://github.com/visualizedata/major-studio-1-fa23.git](https://github.com/visualizedata/major-studio-1-fa23.git)`.
+Create a new environment using all the default settings, then clone this repo by running `git clone https://github.com/visualizedata/major-studio-1-fa23.git`.
 
 ##### Completing the exercises
 
