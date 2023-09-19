@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+path {
+  stroke: green;
+  stroke-width: 2px;
+  fill: none;
+}
+
+path.domain{
+  stroke: black;
+  stroke-width: 1px;
+}
+g.tick text {
+  font-size: 12px;
+  fill: purple;
+}
