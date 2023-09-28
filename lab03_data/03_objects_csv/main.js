@@ -17,10 +17,10 @@ function loadData() {
         n.year = hasDate[0];
         // log input and output
         // console.log(n.displaydate, n.year);
-        counts[n.year] = counts[n.year] ? counts[n.year] + 1 : 1;
+        counts[n.year] = counts[n.year] ? counts[n.year] + 1 : 1; // ternary operator
       }
     })
-    // console.log(counts);
+    console.log(counts);
     analyzeData(counts);
   });
 }
@@ -60,7 +60,7 @@ function displayData(counts){
 
   // define dimensions and margins for the graphic
   const margin = ({top: 100, right: 50, bottom: 100, left: 80})
-  const width = window.innerWidth*3;
+  const width = window.innerWidth*4;
   const height = window.innerHeight;
 
   // let's define our scales.

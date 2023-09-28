@@ -15,9 +15,9 @@ d3.csv('data/prices.csv').then((data) => {
         .html("The first price is: " + data[0].price);    
 
     //write out the entire data set in html
-    // d3.select('#data')
-    //     .selectAll('p')
-    //     .data(data)
-    //     .join('p')
-    //     .html(d => "$"+d.price+ " on " + d.month);
+    d3.select('#data')
+        .selectAll('p')
+        .data(data)
+        .join('p')
+        .html(d => "$"+d.price+ " on " + d.month);
 }); 

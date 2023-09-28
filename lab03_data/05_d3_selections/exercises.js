@@ -42,6 +42,7 @@ function runExercise(number) {
     d3.interval(() => {
       draw2(objects.slice(0, lens[i]));
       i = (i + 1) % lens.length;
+      console.log(i);
     }, 2000);
   } else if (number === 3) {
     draw3(objects);

@@ -8,6 +8,8 @@ The big idea of D3 is that you are binding data to DOM elements. When data chang
 - update: DOM elements that are already drawn, and are still in the data
 - exit: DOM elements that need to be removed because they are no longer in the data
 
+For more information about update pattern, take a look here: https://observablehq.com/@d3/selection-join 
+
 #### Documentation
 
 D3 has extensive documentation. If you aren't sure about something, that should be the first place you look: https://github.com/d3/d3/blob/master/API.md.

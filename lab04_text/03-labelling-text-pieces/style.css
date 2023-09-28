@@ -1,0 +1,32 @@
+
+
+body {
+  overflow: auto;
+  font-family: 'Times New Roman', 'serif';
+  background: white;
+  padding: 2rem;
+  color: black;
+  line-height: 130%;
+  font-size: 30px;
+  
+}
+
+#app {
+  margin-top: 15px;
+  width: 800px;
+}
+.noun {
+ background-color: #74992e;
+}
+.adjective {
+  background-color: #992e7b;
+ }
+
+ .verb {
+  background-color: #f3e812;
+ }
+
+.noun, .adjective, .verb{
+  padding-left:2px;
+  padding-right:2px;
+}
