@@ -11,7 +11,7 @@ function getInput() {
 function processText(input) {
 
   // output just the text:
-  addLetterWithSize("The text is: " + input);
+  addText("The text is: " + input);
 
   // Task: What's the text length?
 
