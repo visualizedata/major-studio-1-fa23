@@ -1,0 +1,178 @@
+[
+  {
+      "Name": "Tiffany",
+      "Attr": [
+          "noisy",
+          "playful",
+          "behaved",
+          "clean"
+      ]
+  },
+  {
+      "Name": "Phoenix",
+      "Attr": [
+          "noisy",
+          "poopy",
+          "playful",
+          "clean"
+      ]
+  },
+  {
+      "Name": "Declan",
+      "Attr": [
+          "behaved",
+          "cute",
+          "poopy",
+          "playful",
+          "noisy"
+      ]
+  },
+  {
+      "Name": "Ayana",
+      "Attr": [
+          "clean",
+          "poopy",
+          "noisy",
+          "cute",
+          "playful"
+      ]
+  },
+  {
+      "Name": "Parker",
+      "Attr": [
+          "behaved",
+          "playful",
+          "noisy",
+          "clean",
+          "cute",
+          "poopy"
+      ]
+  },
+  {
+      "Name": "Grayson",
+      "Attr": [
+          "clean",
+          "cute",
+          "poopy",
+          "noisy",
+          "behaved"
+      ]
+  },
+  {
+      "Name": "Sunny",
+      "Attr": [
+          "clean",
+          "noisy"
+      ]
+  },
+  {
+      "Name": "Jacquelin",
+      "Attr": [
+          "behaved",
+          "cute",
+          "playful"
+      ]
+  },
+  {
+      "Name": "Tavon",
+      "Attr": [
+          "noisy",
+          "poopy",
+          "clean"
+      ]
+  },
+  {
+      "Name": "Devonta",
+      "Attr": [
+          "behaved",
+          "playful",
+          "clean",
+          "noisy"
+      ]
+  },
+  {
+      "Name": "Stacie",
+      "Attr": [
+          "poopy",
+          "clean",
+          "cute",
+          "noisy",
+          "playful",
+          "behaved"
+      ]
+  },
+  {
+      "Name": "Julie",
+      "Attr": [
+          "behaved",
+          "playful",
+          "cute",
+          "clean",
+          "noisy",
+          "poopy"
+      ]
+  },
+  {
+      "Name": "Dorothy",
+      "Attr": [
+          "noisy",
+          "playful"
+      ]
+  },
+  {
+      "Name": "Arjun",
+      "Attr": [
+          "behaved",
+          "poopy",
+          "clean"
+      ]
+  },
+  {
+      "Name": "Isai",
+      "Attr": [
+          "noisy"
+      ]
+  },
+  {
+      "Name": "Maximiliano",
+      "Attr": [
+          "behaved",
+          "playful",
+          "poopy"
+      ]
+  },
+  {
+      "Name": "Marques",
+      "Attr": [
+          "poopy"
+      ]
+  },
+  {
+      "Name": "Jayleen",
+      "Attr": [
+          "poopy",
+          "playful",
+          "behaved"
+      ]
+  },
+  {
+      "Name": "Varun",
+      "Attr": [
+          "cute",
+          "poopy",
+          "clean",
+          "noisy",
+          "playful",
+          "behaved"
+      ]
+  },
+  {
+      "Name": "Jelani",
+      "Attr": [
+          "poopy",
+          "clean",
+          "noisy",
+          "playful"
+      ]
+  }
+]
