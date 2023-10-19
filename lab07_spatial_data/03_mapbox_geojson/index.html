@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <title>MapboxGL & D3 geo</title>
+
+  <!-- https://d3js.org/ -->
+  <script src='https://d3js.org/d3.v7.min.js'></script>
+
+
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css' rel='stylesheet' />
+
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    #map {
+      position:fixed;
+      width: 100%;
+      height: 100%;
+      margin: auto auto;
+    }
+
+    svg {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    text {
+        font-size: 12pt;
+        font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+    <!-- target for Mapbox canvas -->
+    <div id='map'></div>
+    <!-- JavaScript, often loaded as separate script.js file -->
+    <script src="script.js"></script>
+</body>

@@ -117,7 +117,7 @@ function displayNewData(data) {
     // face in our new data portrait using transition again!
     svg.transition()
         .delay(100)
-        .duration(650)
+        .duration(5000)
         .ease(d3.easeCubicOut)
         .style('opacity', 1);
 }
