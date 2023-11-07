@@ -1,0 +1,36 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.interactive {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.interactive svg {
+  grid-column: 2 / 3;
+  grid-row: 1;
+}
+
+.interactive svg rect.highlight {
+  stroke-width: 1px;
+  stroke: white;
+}
+
+.interactive .left-menu {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+
+
+
+.interactive .tooltip.visible {
+  visibility: visible;
+}
+
+.interactive .tooltip:not(.visible) {
+  visibility: hidden;
+}
