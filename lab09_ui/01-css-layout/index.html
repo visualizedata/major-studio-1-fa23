@@ -1,0 +1,69 @@
+<html>
+	<head>
+	    <title>CSS layout</title>
+        <style>
+            body {
+                background-color: #dddddd; 
+                font-size: 30px;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            #centered{
+                margin: auto;
+                width: 500px;
+                background-color: lightpink;
+                height: 100%;
+            }
+
+            img {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            #bottomRight{
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                width: 200px;
+                height: 200px;
+                background-color: lavender;
+                padding: 0px;
+            }
+            #topLeftFixed{
+                position:fixed;
+                top: 0px;
+                left: 0px;
+                width: 200px;
+                /*height:200px;*/
+                background-color: lightgreen;
+                padding:20px;
+                margin:20px;
+            }
+            .theme{
+                background-color: lavender;
+            }
+
+        </style>
+	</head>
+	<body>
+        
+        <div id="centered">
+            This is vertically centered and long.
+            <img src="cat.jpg">
+        </div>
+
+        <div id="topLeftFixed">
+            This is top left fixed
+            <span class="theme">text one two</span>
+            <div>text one two</div>
+        </div>
+
+        <div id="bottomRight">
+            This is bottom right
+        </div>
+
+	</body>
+</html>
